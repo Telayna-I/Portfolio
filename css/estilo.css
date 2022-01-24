@@ -1,0 +1,134 @@
+.topheader {
+  box-shadow: 0 4px 5px var(--navbar-shallow-color);
+  position: fixed;
+  height: 70px;
+  background-color: var(--color-secundario);
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
+  .topheader .topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 980px;
+    margin: 0 auto; }
+    .topheader .topnav .logo {
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--primary-color); }
+    .topheader .topnav .menu {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      .topheader .topnav .menu li {
+        padding: 0 15px; }
+        .topheader .topnav .menu li a {
+          color: black;
+          font-size: .875rem;
+          font-weight: 600;
+          line-height: 50px;
+          position: relative; }
+          .topheader .topnav .menu li a .fa-moon {
+            font-size: 1rem;
+            transform: rotate(-0.03turn); }
+        .topheader .topnav .menu li .after::after {
+          content: "";
+          background-color: red;
+          position: absolute;
+          left: 0;
+          top: calc(65% + 4px);
+          width: 100%;
+          height: 4px;
+          border-radius: 3px;
+          opacity: 0;
+          transition: opacity 0.3s; }
+        .topheader .topnav .menu li a.selected::after,
+        .topheader .topnav .menu li a:hover::after {
+          opacity: 0.8; }
+        .topheader .topnav .menu li a:hover {
+          color: var(--primary-color); }
+    .topheader .topnav .open-menu,
+    .topheader .topnav .close-menu {
+      display: none; }
+
+.home {
+  display: flex;
+  justify-content: center; }
+  .home .redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 3rem;
+    font-size: 1.5rem; }
+    .home .redes i {
+      padding: .975rem 0; }
+  .home .texto {
+    width: 23rem;
+    height: 15rem; }
+    .home .texto h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      margin: 2rem 0rem; }
+    .home .texto h3 {
+      font-size: 1.125rem;
+      font-weight: 500;
+      margin: 1rem 0rem; }
+    .home .texto p {
+      font-size: .938;
+      margin: 1rem 0rem; }
+    .home .texto a {
+      padding: 1rem;
+      width: 10rem;
+      background-color: aqua;
+      border-radius: 0.5rem;
+      font-weight: 500;
+      margin: 2rem 0rem; }
+  .home img {
+    width: 320px; }
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .skills h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin-top: 10rem;
+    margin-bottom: 5rem; }
+  .skills .skills-grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    row-gap: 2.5rem; }
+    .skills .skills-grid-container .skilli {
+      text-align: center; }
+      .skills .skills-grid-container .skilli i {
+        font-size: 2.5rem; }
+    .skills .skills-grid-container .image-tec {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+      .skills .skills-grid-container .image-tec img {
+        width: 2.5rem;
+        height: 2.5rem; }
+    .skills .skills-grid-container .ajax {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+      .skills .skills-grid-container .ajax img {
+        width: 80px;
+        height: 40px; }

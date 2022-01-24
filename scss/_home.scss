@@ -1,0 +1,48 @@
+.home{
+    display: flex;
+    justify-content: center;
+    .redes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        cursor: pointer;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+
+        i{
+            padding: .975rem 0;
+        }
+    }
+
+    .texto{
+        width: 23rem;
+        height: 15rem;
+        h1{
+            font-size: 3rem;
+            font-weight: 600;
+            margin: 2rem 0rem;
+        }
+        h3{
+            font-size: 1.125rem;
+            font-weight: 500;
+            margin: 1rem 0rem;
+        }
+        p{
+            font-size: .938;
+            margin: 1rem 0rem;
+        }
+
+        a{
+            padding: 1rem;
+            width: 10rem;
+            background-color: aqua;
+            border-radius: 0.5rem;
+            font-weight: 500;
+            margin: 2rem 0rem;
+        }
+        
+    }
+    img{
+        width: 320px;
+    }
+}
