@@ -12,6 +12,10 @@
         i{
             padding: .975rem 0;
         }
+
+        i:hover{
+            color: aqua;
+        }
     }
 
     .texto{
@@ -39,6 +43,10 @@
             border-radius: 0.5rem;
             font-weight: 500;
             margin: 2rem 0rem;
+        }
+
+        a:hover{
+            filter: brightness(0.9);
         }
         
     }

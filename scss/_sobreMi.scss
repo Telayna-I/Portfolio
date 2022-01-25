@@ -1,0 +1,53 @@
+.sobreMi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    // border: solid 1px red;
+
+    h2{
+        font-size: 2.25rem;
+        font-weight: 600;
+        margin-top: 10rem;
+        margin-bottom: 1rem;
+    }
+    
+    .subtitle-sobreMi{
+        font-size: .875rem;
+        margin-bottom: 3rem;
+    }
+    .text-sobreMi{
+        margin-bottom: 2rem;
+    }
+    .info-sobreMi{
+        display: flex;
+        text-align: center;
+        margin-bottom: 3rem;
+
+        .about{
+            .about-title{
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+
+            .about-text{
+                font-size: .900rem;
+            }
+            margin: 2rem 4rem;
+        }
+    }
+
+    a{
+        align-self: flex-start;
+        padding: 1rem;
+        background-color: aqua;
+        border-radius: 0.5rem;
+        font-weight: 500;
+    }
+
+    a:hover{
+        filter: brightness(0.9);
+    }
+}

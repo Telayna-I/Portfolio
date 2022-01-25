@@ -68,6 +68,8 @@
     font-size: 1.5rem; }
     .home .redes i {
       padding: .975rem 0; }
+    .home .redes i:hover {
+      color: aqua; }
   .home .texto {
     width: 23rem;
     height: 15rem; }
@@ -89,8 +91,47 @@
       border-radius: 0.5rem;
       font-weight: 500;
       margin: 2rem 0rem; }
+    .home .texto a:hover {
+      filter: brightness(0.9); }
   .home img {
     width: 320px; }
+
+.sobreMi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto; }
+  .sobreMi h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin-top: 10rem;
+    margin-bottom: 1rem; }
+  .sobreMi .subtitle-sobreMi {
+    font-size: .875rem;
+    margin-bottom: 3rem; }
+  .sobreMi .text-sobreMi {
+    margin-bottom: 2rem; }
+  .sobreMi .info-sobreMi {
+    display: flex;
+    text-align: center;
+    margin-bottom: 3rem; }
+    .sobreMi .info-sobreMi .about {
+      margin: 2rem 4rem; }
+      .sobreMi .info-sobreMi .about .about-title {
+        font-size: 1.5rem;
+        font-weight: 600; }
+      .sobreMi .info-sobreMi .about .about-text {
+        font-size: .900rem; }
+  .sobreMi a {
+    align-self: flex-start;
+    padding: 1rem;
+    background-color: aqua;
+    border-radius: 0.5rem;
+    font-weight: 500; }
+  .sobreMi a:hover {
+    filter: brightness(0.9); }
 
 .skills {
   display: flex;
